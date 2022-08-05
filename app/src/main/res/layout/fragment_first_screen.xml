@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:id="@+id/widget_one"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="ru.test.widget_one.presentation.OneFragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:id="@+id/widget_two"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="ru.test.widget_two.presentation.TwoFragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:id="@+id/widget_three"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="ru.test.widget_three.presentation.ThreeFragment" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
